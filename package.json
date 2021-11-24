@@ -1,0 +1,28 @@
+{
+  "name": "khareedo.com",
+  "version": "1.0.0",
+  "description": "Ecommerce Website",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ez-sherlock/khareedo.com.git"
+  },
+  "author": "Burhan Haroon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ez-sherlock/khareedo.com/issues"
+  },
+  "homepage": "https://github.com/ez-sherlock/khareedo.com#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
+}
